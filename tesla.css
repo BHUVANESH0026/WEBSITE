@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+}
+
+.tesla{
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-US.png);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.icons>svg{
+    height: 25px;
+    width: 30px;
+}
+
+.logo>svg{
+    height: 150px;
+    width: 120px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 70px;
+    height: 50px;
+    color: white;
+}
+
+.navbar>a{
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+
+}
+
+section{
+    text-align: center;
+    color: aliceblue;
+}
+
+section h1{
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section h3{
+    font-size: 30px;
+    border-bottom: 2px solid cornsilk;
+    display: inline;
+    padding-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section p{
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#btn1,#btn2{
+    height: 40px;
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#btn1{
+    background-color: blue;
+    color: azure;
+}
+
+footer{
+    position:absolute;
+    bottom: 0;
+    margin-left:350px;
+    margin-bottom: 80px;
+    
+}
